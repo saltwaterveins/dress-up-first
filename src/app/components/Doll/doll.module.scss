@@ -1,0 +1,22 @@
+.doll {
+    background-color: #ffc1c3;
+    color: plum;
+    outline: 2px dashed transparent;
+    pointer-events: auto;
+    position: relative;
+    width: 300px;
+    height: 500px;
+
+    &.dragOver {
+        border-color: pink;
+    }
+
+    &:hover {
+        outline-color: pink;
+    }
+}
+
+.base,
+.outfit {
+    pointer-events: none;
+}
